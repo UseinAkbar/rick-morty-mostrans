@@ -18,7 +18,6 @@ const AppRoutes = () => {
                     <Route path="list" element={<List />} />
                     <Route path="detail/:id" element={<Detail />} />
                     <Route path="characterByLocation" element={<CharacterLocation />} />
-                    {/* <Route path="*" element={<PageNotFound />} /> */}
                 </Route>
             </Routes>
         </Suspense>
